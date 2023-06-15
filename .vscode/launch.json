@@ -9,13 +9,21 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
             "console": "integratedTerminal"
         },
         {
-            "name": "Python: main.py",
+            "name": "Python: ui.py",
             "type": "python",
             "request": "launch",
-            "program": "main.py",
+            "program": "ui.py",
             "console": "integratedTerminal"
         },
     ]

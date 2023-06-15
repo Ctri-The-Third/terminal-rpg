@@ -5,14 +5,39 @@ Screen {
     grid-rows: 75% 25%;
 }
 
+.control_grid {
+    layout: grid;
+    grid-size: 3;
+    grid-columns: 1fr;
+    grid-rows: 1fr;
+}
+
+
 .box {
     height: 100%;
     border: solid green;
 
 }
 
+.console {
+    padding: 1 2;
+    align: center top;
+}
+
 .input_box {
     height: 100%;
     border: solid red;
     column-span: 2;
+}
+
+.control_button {
+    width: 100%;
+}
+
+.wide {
+    column-span: 3;
+}
+
+.third {
+    width: 33%;
 }
