@@ -13,10 +13,10 @@
             "justMyCode": true
         },
         {
-            "name": "Python: Current File",
+            "name": "Python: progress.py",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "progress.py",
             "console": "integratedTerminal"
         },
         {
