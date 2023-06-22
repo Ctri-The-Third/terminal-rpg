@@ -1,9 +1,4 @@
-Screen {
-    layout: grid;
-    grid-size: 2;
-    grid-columns: 3fr 2fr;
-    grid-rows: 75% 25%;
-}
+Screen {}
 
 .control_grid {
     layout: grid;
@@ -12,6 +7,7 @@ Screen {
     grid-rows: 1fr;
 }
 
+Center {}
 
 .box {
     height: 100%;
@@ -40,4 +36,17 @@ Screen {
 
 .third {
     width: 33%;
+}
+
+DisplayWidget {
+    height: 1fr;
+    background: $panel;
+    color: $text;
+    border: tall $background;
+    padding: 1 1;
+
+}
+
+ProgressBar {
+    height: 1;
 }

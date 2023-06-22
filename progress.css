@@ -1,0 +1,17 @@
+DisplayWidget {
+    height: 1fr;
+    background: $panel;
+    color: $text;
+    border: tall $background;
+    padding: 1 1;
+
+}
+
+Center {
+    layout: horizontal;
+}
+
+ProgressBar {
+    padding-left: 3;
+
+}
